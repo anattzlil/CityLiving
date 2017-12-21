@@ -77,6 +77,15 @@ h1.locations-text {
     text-align: center;
 }
 
+h1.review-hl {
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    color: #5a5a5a;  
+    text-align: center;
+}
+
 span{
     color: #777;
 }
@@ -130,7 +139,7 @@ hr {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    margin-top: 50px;  
+    margin-top: 60px;  
 }
 
 #map {
@@ -147,6 +156,65 @@ h1.bottom-map {
     color: #ff7322;
     margin-top: 20px;
     text-align: center;
+}
+
+.buildings-pics {
+    margin-top: 90px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+    background-color: #f3f5f7;
+}
+
+.buildings-pics img {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%; 
+    text-align: center;
+}
+
+.pic1 ,.pic2, .pic3, .pic4 {
+    position: relative;
+}
+
+.buildings-pics.pic1-text {
+    position: absolute;
+}
+
+.buildings-pics h1 {
+    position: relative;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 2px #4b4b4b;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.footer {
+    text-align: center;
+    background-color:#e7e7e7;
+    margin-top: 30px;
+    color: #ff7322;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ff7322;
+}
+
+.footer p, .footer.tel {
+    display: inline-block;
+}
+
+.footer img {
+    width: 15%;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 * {
