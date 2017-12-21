@@ -59,7 +59,7 @@
 }
 
 div {
-    height: 50px;
+    /* height: 50px; */
     border: 1px solid red;
   }
 
@@ -74,41 +74,9 @@ div {
     clear: both;
   } 
 
-  .nav-bar {
-      background-color: rgb(148, 148, 148);
-      position: fixed;
-      padding: 30px;
+  section.welcome {
       text-align: center;
   }
-
-  li {
-      display: inline-block;
-  }
-
-  .nav-bar a {
-         text-decoration: none;
-         font-family: "Helvetica", sans-serif;
-         text-transform: uppercase;
-         color: white;
-         padding-left: 20px;
-         padding-right: 20px;
-  }
-
-  .nav-bar a:hover {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-
-@media (max-width: 700px){
-    .nav-bar li {
-        width: 100%;
-        padding: 10px;
-    }
-    .nav-bar {
-        padding: 0;
-    }
-}
 
 
   * {
